@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          okta:
+            issuer-uri: https://dev-104592.okta.com.okta.com/oauth2/default
+        registration:
+          okta:
+            client-id: 0oatwl8ddHn1plgqs356
+            client-secret: u0D1a3x7ZXICBfmfNob2E9AoES_z-WI2iN_fBT4N
+      resource:
+        server: http://localhost:8080
